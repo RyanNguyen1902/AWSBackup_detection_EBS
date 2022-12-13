@@ -25,4 +25,4 @@ To build the anomaly-detection pipeline, I use the following services:
 - **Amazon Simple Notification Service (Amazon SNS)**: When a CloudWatch alarm is triggered, an Amazon SNS topic delivers a notification to the email address configured during setup.
 The following diagram illustrates the architecture of the solution:
 
-![EBS](/images/1/0007.png?featherlight=false&width=60pc)
+![EBS](https://github.com/RyanNguyen1902/AWSBackup_detection_EBS/blob/3677679f569b5ea010a047be17c7210d9210b3b0/static/images/1/0007.png)
