@@ -22,7 +22,7 @@ Khởi đầu của giải pháp là AWS Backup. Khi một ổ đĩa Amazon EBS 
 - **Amazon CloudWatch**: Một số liệu tùy chỉnh được tạo trong hàm AWS Lambda và được gửi tới Amazon CloudWatch. Giá trị số liệu chứa số khối đã thay đổi giữa snapshot hiện tại và snapshot trước đó. Cảnh báo CloudWatch, đã được định cấu hình và tạo trước đó trong hàm AWS Lambda, được kích hoạt khi dải ngưỡng phát hiện bất thường bị vi phạm.
 - **Amazon Simple Notification Service (Amazon SNS)**: Khi cảnh báo CloudWatch được kích hoạt, chủ đề Amazon SNS sẽ gửi thông báo đến địa chỉ email được định cấu hình trong quá trình thiết lập.
 
-![EBS](/images/1/0007.png?featherlight=false&width=60pc)
+![EBS](/images/1/0007.png)
 
 #### Nội dung
 
